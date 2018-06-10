@@ -1,6 +1,7 @@
 # Header
 menu:
-  Home: /
+  Home: http://www.prophet-xu.com
+  Blog: /
   Archives: /archives
 rss: /atom.xml
 
@@ -9,7 +10,7 @@ excerpt_link: Read More
 fancybox: true
 
 # Sidebar
-sidebar: right
+sidebar: left
 widgets:
 - category
 - tag
