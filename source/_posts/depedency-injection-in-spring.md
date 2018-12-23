@@ -9,6 +9,8 @@ tags:
 
 依赖注入（Depedency Injection, DI）作为 Spring 的核心功能，极大的改变了代码的组织形式。本文将从 DI 的原理入手，分析 Spring 的相关源码，并对 Field Injection, Setter Injection, Constructor Injection 进行对比，给出一定的实践建议。
 
+<!-- more -->
+
 ## 概念
 
 依赖注入是指对象不去直接创建自己所依赖的其他对象，而仅仅去声明需要依赖的其他对象，Spring 容器会去创建这些依赖的对象，并将创建好的对象直接注入到其依赖的实例域中。这一过程与正常的创建过程相反，因此也称为控制反转（Inversion of Control, IoC）。

@@ -10,6 +10,8 @@ tags:
 
 便捷的事务管理是 Spring 的一大优点，本文将介绍 Spring 的事务核心抽象，在此基础上介绍 Spring 的编程式事务和声明式事务，并给出一定的实践建议。
 
+<!-- more -->
+
 ## Spring 的事务抽象
 
 Spring 事务的核心抽象是 `PlatformTransactionManager` 接口。
